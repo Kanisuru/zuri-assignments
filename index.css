@@ -1,0 +1,72 @@
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: hsl(0, 0%, 95%);
+      }
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 68%;
+        margin: auto;
+      }
+      div {
+        padding: 2em;
+        height: 70%;
+      }
+      div h1 {
+        color: hsl(0, 0%, 95%);
+        font-family: Big Shoulders Display;
+        padding-bottom: 1em;
+        padding-top: 20px;
+      }
+      div p {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        font-family: Lexend Deca;
+        padding-bottom: 4em;
+      }
+      .block1 button {
+        font-family: Lexend Deca;
+        border-radius: 20px;
+        padding: 10px;
+        color: hsl(31, 77%, 52%);
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        border-style: none;
+        width: 70%;
+      }
+      .block2 button {
+        font-family: Lexend Deca;
+        border-radius: 20px;
+        padding: 10px;
+        color: hsl(184, 100%, 22%);
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        border-style: none;
+        width: 70%;
+      }
+      .block3 button {
+        font-family: Lexend Deca;
+        border-radius: 20px;
+        padding: 10px;
+        color: hsl(179, 100%, 13%);
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        border-style: none;
+        width: 70%;
+      }
+      .block1 {
+        background-color: hsl(31, 77%, 52%);
+      }
+      .block2 {
+        background-color: hsl(184, 100%, 22%);
+      }
+      .block3 {
+        background-color: hsl(179, 100%, 13%);
+      }
+    
